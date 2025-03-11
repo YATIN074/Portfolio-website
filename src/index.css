@@ -1,0 +1,50 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.style-script-regular {
+font-family: "Style Script", cursive;
+font-weight: 700;
+font-style:italic;
+letter-spacing: 2px;
+font-size:xxx-large;
+}
+.custom-scrollbar::-webkit-scrollbar {
+width: 6px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+background: #001f3b; /* Track background */
+border-radius: 10px; /* Optional: round edges */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+background: #0a515e; /* Scrollbar handle */
+border-radius: 10px; /* Rounded scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+background: #2563eb; /* Handle color on hover */
+}
+
+.fraunces {
+font-family: "Fraunces", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-variation-settings:
+    "SOFT" 0,
+    "WONK" 1;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.source-code-pro {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
