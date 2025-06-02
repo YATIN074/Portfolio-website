@@ -12,8 +12,8 @@ const About = () => {
           <div><span className='source-code-pro text-xl text-[#0ed7ff]'>02. </span> About</div>
           <div className='bg-white/20 w-[500px] h-[0.1px]'></div>
       </div>
-      <div className='flex my-12 items-center'>
-        <div className=' flex flex-col gap-4 min-w-[300px]'>
+      <div className='flex lg:flex-row flex-col my-12 items-center'>
+        <div className=' flex lg:flex-col gap-4 min-w-[300px]'>
           <button onClick={()=>(setShow('About'))} className={`text-lg tracking-widest text-[#0ed7ff] border rounded-xl p-3 cursor-pointer border-[#0ed7ff] ${show === 'About' ? 'bg-[#0ed7ff] text-[#001f3b]' :'hover:bg-[#0ed7ff]/20 hover:text-[#0ed7ff] '}  transition-all duration-100`}>About</button>
           <button onClick={()=>(setShow('Experience'))} className={` text-lg tracking-widest text-[#0ed7ff] border rounded-xl p-3 cursor-pointer border-[#0ed7ff] ${show === 'Experience' ? 'bg-[#0ed7ff] text-[#001f3b]' :'hover:bg-[#0ed7ff]/20 hover:text-[#0ed7ff] '} transition-all duration-100`}>Experience</button>
           <button onClick={()=>(setShow('Skills'))} className={` text-lg tracking-widest text-[#0ed7ff] border rounded-xl p-3 cursor-pointer border-[#0ed7ff] ${show === 'Skills' ? 'bg-[#0ed7ff] text-[#001f3b]' :'hover:bg-[#0ed7ff]/20 hover:text-[#0ed7ff] '} transition-all duration-100`}>Skills</button>

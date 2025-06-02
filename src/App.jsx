@@ -10,7 +10,7 @@ function App() {
       setPosition({ x: `${e.clientX}px`, y: `${e.clientY}px` });
     };
   return (
-    <div className="bg-[#001f3b] text-[#ffffffcc] overflow-y-scroll h-screen custom-scrollbar overflow-x-hidden" onMouseMove={handleMouseMove}>
+    <div className="bg-[#001f3b] text-[#ffffffcc] overflow-y-scroll h-screen w-screen custom-scrollbar overflow-x-hidden" onMouseMove={handleMouseMove}>
       <div
         className="absolute w-full h-full z-4"
         style={{
